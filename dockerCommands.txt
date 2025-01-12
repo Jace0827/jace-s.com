@@ -1,0 +1,7 @@
+docker compose up -d
+docker compose up --build
+docker compose up --watch
+
+docker compose down 
+
+서버는 배포전 빌드를 해야됨 npm run build
